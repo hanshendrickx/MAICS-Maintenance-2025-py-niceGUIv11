@@ -1,0 +1,15 @@
+# MACS - Medical Analysis System Requirements
+# Run: pip install -r requirements.txt
+
+nicegui>=1.4.0
+# NiceGUI is the main web framework for the application
+
+# Security dependencies for PRO version
+cryptography>=41.0.0
+# Encryption library for secure license management and data protection
+
+# Optional dependencies for future enhancements:
+# pandas>=2.0.0        # For data analysis features
+# numpy>=1.24.0        # For numerical computations
+# pillow>=10.0.0       # For image processing
+# python-dateutil>=2.8.0  # For date/time handling

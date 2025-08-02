@@ -1,0 +1,132 @@
+# Python Virtual Environment - NEVER COMMIT
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+ECHO is off.
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+ECHO is off.
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+ECHO is off.
+# Security - NEVER COMMIT THESE!
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+config/secrets.json
+secrets/
+credentials/
+auth/
+tokens/
+ECHO is off.
+# MACS Security Files - NEVER COMMIT
+.macs_license
+.macs_security
+*.license
+*.activation
+security_logs/
+ECHO is off.
+# Medical Data - PRIVACY PROTECTION
+patient_data/
+medical_records/
+health_data/
+clinical_data/
+patient_info/
+medical_files/
+*.csv
+*.xlsx
+*.xls
+*.ods
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+data/
+datasets/
+ECHO is off.
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+cache/
+.cache/
+ECHO is off.
+# Distribution and build files
+dist/
+build/
+*.egg-info/
+.eggs/
+downloads/
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+ECHO is off.
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+ECHO is off.
+# Documentation builds
+docs/_build/
+site/
+ECHO is off.
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+ECHO is off.
+# Visual Studio Code
+.vscode/
+*.code-workspace
+ECHO is off.
+# Windows thumbnail cache
+ehthumbs.db
+ehthumbs_vista.db
+ECHO is off.
+# macOS
+.AppleDouble
+.LSOverride
+ECHO is off.
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
