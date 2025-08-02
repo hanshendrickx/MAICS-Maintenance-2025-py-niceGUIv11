@@ -213,9 +213,9 @@ git remote get-url origin >nul 2>&1
 if errorlevel 1 (
     echo ❌ No GitHub remote configured
     echo 🔄 Setting up your GitHub repository...
-    echo Repository: https://github.com/hanshendrickx/MAICS-Maintenance-2025-py-niceGUIv11.git
+    echo Repository: https://github.com/hanshendrickx/MACSv1.git
     
-    git remote add origin https://github.com/hanshendrickx/MAICS-Maintenance-2025-py-niceGUIv11.git
+    git remote add origin https://github.com/hanshendrickx/MACSv1.git
     if errorlevel 1 (
         echo ❌ Failed to add remote
         echo 💡 Check if the repository exists on GitHub
